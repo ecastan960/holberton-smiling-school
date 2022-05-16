@@ -10,9 +10,12 @@ html {
 }
 
 :root {
+  --opacity-button: 0.9;
   --color-purple: #c271ff;
   --text-32: 3.2rem;
   --text-18: 1.8rem;
+  --text-22: 2.2rem;
+  --text-63: 6.3rem;
 }
 
 body {
@@ -39,4 +42,12 @@ header {
 
 .text-18 {
   font-size: var(--text-18);
+}
+
+.text-22 {
+  font-size: var(--text-22);
+}
+
+.text-63 {
+  font-size: var(--text-63);
 }
