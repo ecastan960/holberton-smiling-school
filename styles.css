@@ -18,6 +18,7 @@ html {
   --text-63: 6.3rem;
   --text-14: 1.4rem;
   --color-black: #071629;
+  --text-30: 3rem;
 }
 
 body {
@@ -73,4 +74,13 @@ header {
 
 .arrow-videos {
   color: var(--color-black);
+}
+
+.icons-footer {
+  color: white;
+  font-size: var(--text-30);
+}
+
+.op-35 {
+  opacity: 35%;
 }
