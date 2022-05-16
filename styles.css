@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+:root {
+  --color-purple: #c271ff;
+  --text-32: 3.2rem;
+  --text-18: 1.8rem;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  background-image: url(./images/pic_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.purple-b {
+  background-color: var(--color-purple);
+}
+
+.purple-t {
+  color: var(--color-purple);
+}
+
+.text-32 {
+  font-size: var(--text-32);
+}
+
+.text-18 {
+  font-size: var(--text-18);
+}
