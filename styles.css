@@ -16,6 +16,8 @@ html {
   --text-18: 1.8rem;
   --text-22: 2.2rem;
   --text-63: 6.3rem;
+  --text-14: 1.4rem;
+  --color-black: black;
 }
 
 body {
@@ -50,4 +52,21 @@ header {
 
 .text-63 {
   font-size: var(--text-63);
+}
+
+.text-14 {
+  font-size: var(--text-14);
+}
+
+.video {
+  width: 25.5rem;
+  height: 33.5rem;
+}
+
+.play {
+  margin: -11rem 0 4rem 8.5rem;
+}
+
+.arrow-videos {
+  color: var(--color-black);
 }
