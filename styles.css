@@ -17,7 +17,7 @@ html {
   --text-22: 2.2rem;
   --text-63: 6.3rem;
   --text-14: 1.4rem;
-  --color-black: black;
+  --color-black: #071629;
 }
 
 body {
@@ -36,6 +36,10 @@ header {
 
 .purple-t {
   color: var(--color-purple);
+}
+
+.black-b {
+  background-color: var(--color-black);
 }
 
 .text-32 {
