@@ -12,13 +12,18 @@ html {
 :root {
   --opacity-button: 0.9;
   --color-purple: #c271ff;
+  --color-lpurple: #deb7fb;
+
   --text-32: 3.2rem;
   --text-18: 1.8rem;
   --text-22: 2.2rem;
   --text-63: 6.3rem;
+  --text-60: 6rem;
   --text-14: 1.4rem;
+  --text-44: 4.4rem;
   --color-black: #071629;
   --text-30: 3rem;
+  --spacer: 10rem;
 }
 
 body {
@@ -29,6 +34,11 @@ header {
   background-image: url(./images/pic_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+}
+
+.pricing-header {
+  background-image: url(images/pic_2.jpg);
 }
 
 .purple-b {
@@ -39,8 +49,16 @@ header {
   color: var(--color-purple);
 }
 
+.lpurple-b {
+  background-color: var(--color-lpurple);
+}
+
 .black-b {
   background-color: var(--color-black);
+}
+
+.white-b {
+  background-color: #ffffff;
 }
 
 .text-32 {
@@ -59,8 +77,16 @@ header {
   font-size: var(--text-63);
 }
 
+.text-60 {
+  font-size: var(--text-60);
+}
+
 .text-14 {
   font-size: var(--text-14);
+}
+
+.text-44 {
+  font-size: var(--text-44);
 }
 
 .video {
@@ -83,4 +109,83 @@ header {
 
 .op-35 {
   opacity: 35%;
+}
+
+.op-50 {
+  opacity: 50%;
+}
+
+.ul-pricing {
+  margin: 0 3rem;
+}
+
+.check-green {
+  color: #82d24f;
+  font-size: 2.8rem;
+}
+
+.link {
+  position: relative;
+}
+
+.link:hover {
+  color: var(--color-purple) !important;
+}
+
+.link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.font-coiny {
+  font-family: "Coiny";
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-spacing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.search-form {
+  height: 45px;
+}
+
+.search-form:focus {
+  background-color: var(--color-lpurple);
+}
+
+.search-form::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.icon-bg {
+  background-color: var(--color-lpurple);
+  font-size: 28px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-top-style: rounded;
+}
+
+.dropdown-item:hover {
+  color: var(--color-purple);
 }
